@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import Chart from './components/Chart';
 import './App.css';
 
 class App extends Component {
@@ -12,6 +13,9 @@ class App extends Component {
         <p className="App-intro">
           Enter your data and see graphical results
         </p>
+        <div className="container">
+          <Chart />
+        </div>
       </div>
     );
   }
